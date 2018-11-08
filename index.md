@@ -91,7 +91,8 @@ eventbrite: 51973052800         # optional: alphanumeric key for Eventbrite regi
 {% if page.latlng %}
 <p id="where">
   <strong>Where:</strong>
-  <ul>
+</p>
+<ul>
     <li>Day 1: Sorrell's Library Den, Wean Hall 4th floor. Get directions with
   <a href="//www.openstreetmap.org/?mlat={{"40.442460,-79.945631" | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
@@ -100,8 +101,8 @@ eventbrite: 51973052800         # optional: alphanumeric key for Eventbrite regi
   <a href="//www.openstreetmap.org/?mlat={{"40.446088,-79.951057" | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
   <a href="//maps.google.com/maps?q=40.446088,-79.951057">Google Maps</a>.</a>. </li>
-  </ul>
-</p>
+</ul>
+
 {% endif %}
 
 {% comment %}
