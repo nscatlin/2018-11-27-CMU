@@ -6,7 +6,7 @@ address1: "Day 1: Sorrell's Library Den, Wean Hall 4th floor"
 address2: "Day 2: Mellon Social Room, Mellon Institute"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng1: "40.442460,-79.945631
+latlng1: "40.442460,-79.945631"
 latlng2: "40.446088,-79.951057"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
 humandate: "Nov 27-28, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "Day 1: 9:00 AM - 5:00 PM
