@@ -2,8 +2,8 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
 venue: "Carnegie Mellon University"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "Day 1: Sorrell's Library Den, Wean Hall 4th floor
-Day 2: Mellon Social Room, Mellon Institute"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+#address: "Day 1: Sorrell's Library Den, Wean Hall 4th floor
+#Day 2: Mellon Social Room, Mellon Institute"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "Day 1: 40.442460,-79.945631
@@ -49,10 +49,6 @@ eventbrite: 51973052800         # optional: alphanumeric key for Eventbrite regi
 </iframe>
 {% endif %}
 
-<h4>This is the workshop template. Delete these lines and use it to customize your own website.
-If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in 
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
-and our administrator may contact you if we need any extra information.</h4>
 
 <h2 id="general">General Information</h2>
 
@@ -95,11 +91,16 @@ and our administrator may contact you if we need any extra information.</h4>
 {% if page.latlng %}
 <p id="where">
   <strong>Where:</strong>
-  {{page.address}}.
-  Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
+  <ul>
+    <li>Day 1: Sorrell's Library Den, Wean Hall 4th floor. Get directions with
+  <a href="//www.openstreetmap.org/?mlat={{"40.442460,-79.945631" | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+  <a href="//maps.google.com/maps?q=40.442460,-79.945631">Google Maps</a>.
+    <li>Day 2: Mellon Social Room, Mellon Institute.  Get directions with
+  <a href="//www.openstreetmap.org/?mlat={{"40.446088,-79.951057" | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
+  or
+  <a href="//maps.google.com/maps?q=40.446088,-79.951057">Google Maps</a>.</a>. </li></li>
+  </ul>
 </p>
 {% endif %}
 
