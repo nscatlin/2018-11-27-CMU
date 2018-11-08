@@ -663,7 +663,6 @@ eventbrite: 51973052800         # optional: alphanumeric key for Eventbrite regi
 {% endcomment %}
 
 {% comment %}
-
 <div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
   <h3>SQLite</h3>
 
