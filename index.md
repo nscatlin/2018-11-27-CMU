@@ -95,11 +95,11 @@ eventbrite: 51973052800         # optional: alphanumeric key for Eventbrite regi
     <li>Day 1: Sorrell's Library Den, Wean Hall 4th floor. Get directions with
   <a href="//www.openstreetmap.org/?mlat={{"40.442460,-79.945631" | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
-  <a href="//maps.google.com/maps?q=40.442460,-79.945631">Google Maps</a>.
+  <a href="//maps.google.com/maps?q=40.442460,-79.945631">Google Maps</a>.</li>
     <li>Day 2: Mellon Social Room, Mellon Institute.  Get directions with
   <a href="//www.openstreetmap.org/?mlat={{"40.446088,-79.951057" | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
-  <a href="//maps.google.com/maps?q=40.446088,-79.951057">Google Maps</a>.</a>. </li></li>
+  <a href="//maps.google.com/maps?q=40.446088,-79.951057">Google Maps</a>.</a>. </li>
   </ul>
 </p>
 {% endif %}
