@@ -405,7 +405,7 @@ eventbrite: 51973052800         # optional: alphanumeric key for Eventbrite regi
   <h3>The Bash Shell</h3>
 
   <p>
-    Bash is a commonly-used shell that gives you the power to do simple
+    Bash is a commonly-used Unix shell that gives you the power to do simple
     tasks more quickly.
   </p>
 
