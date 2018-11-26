@@ -313,7 +313,8 @@ eventbrite: 51973052800         # optional: alphanumeric key for Eventbrite regi
            the Jupyter notebook.
            Details at https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility {% endcomment %}
   <h3>Python</h3>
-
+  <p> Please download <a href="https://drive.google.com/file/d/1wF6XGvQZLEyJErw46EOou6kpG02ZqbWb/view?usp=sharing">python-novice-gapminder-data.zip</a>, unzip it, and move the folder to your Desktop.
+  </p>
   <p>
     <a href="https://python.org">Python</a> is a popular language for
     research computing, and great for general-purpose programming as
@@ -392,18 +393,19 @@ eventbrite: 51973052800         # optional: alphanumeric key for Eventbrite regi
       </ol>
     </div>
   </div>
-{% comment %}
+
   <p>
   Once you are done installing the software listed above,
   please go to <a href="setup/index.html">this page</a>,
   which has instructions on how to test that everything was installed correctly.
   </p>
-{% endcomment %}
+
 </div> {% comment %} End of 'Python' section. {% endcomment %}
 
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
   <h3>The Bash Shell</h3>
-
+  <p> Please download <a href="https://drive.google.com/file/d/1-mEPnK6oA_S8X38zA6MPErLBBv-76pVN/view?usp=sharing">data-shell.zip</a>, unzip it, and move the folder to your Desktop.
+  </p>
   <p>
     Bash is a commonly-used Unix shell that gives you the power to do simple
     tasks more quickly.
